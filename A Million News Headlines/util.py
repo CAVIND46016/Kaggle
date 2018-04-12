@@ -5,7 +5,7 @@ def connect_to_database_server(dbname):
     # PostGresSQL Params
     HOST = "localhost"
     USER = "postgres"
-    PASSWORD = "postcavingres"
+    PASSWORD = "xxxxxxxxxxxxx"
     
     try:
         conn = psycopg2.connect(host = HOST, database = dbname, user = USER, password = PASSWORD);
