@@ -37,7 +37,8 @@ def get_mins(q_type, cur):
 
 def generate_plot(conn, cur):
     """
-        Generates WordCloud from the word-frequency count queried from the database.
+        Generates a histogram from the death and profane word count
+        using the minutes_in field queried from the database.
     """
     mins_word = get_mins("word", cur)
     mins_death = get_mins("death", cur)
